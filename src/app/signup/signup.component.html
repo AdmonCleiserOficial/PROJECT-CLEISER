@@ -1,0 +1,77 @@
+<app-segheader></app-segheader>
+<img class="andrea" src="assets/img/logo/andrea.gif" alt="">
+<!-- breadcrumb area start -->
+<div class="breadcrumb-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumb-wrap">
+          <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Registrate</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- breadcrumb area end -->
+
+<div class="login-register-wrapper bloqueregistro animated bounceInDown">
+  <div class="container-fluid">
+    <div class="member-area-from-wrap">
+      <div class="row">
+        <!-- Register Content Start -->
+        <div class="col-lg-12 ">
+          <div class="login-reg-form-wrap mt-md-34 mt-sm-34 shadow-lg bg-dark border rounded " style="box-shadow: 5px 10px 8px 10px #888888;">
+            <div class="w-100">
+              <h2 class="text-white " style="text-shadow: 1px 1px 19px white;">Formulario de Registro</h2>
+            </div>
+            <form action="#" method="post">
+              <div class="single-input-item">
+                <input type="text" placeholder="Nombre Completo" [formControl]="name" required />
+              </div>
+              <div class="single-input-item">
+                <input type="email" placeholder="Ingresa tu Correo" required />
+              </div>
+              <div class="single-input-item">
+                <input type="text" placeholder="ID de referido" required />
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="single-input-item">
+                    <input type="password" promptLabel="Ingresa tu contraseña" placeholder="Ingresa tu contraseña"
+                      weakLabel="Debil" mediumLabel="Medio" class="encriptea" strongLabel="Fuerte" required pPassword />
+
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="single-input-item">
+                    <input type="password" promptLabel="Repite tu contraseña" placeholder="Repite tu contraseña"
+                      weakLabel="Debil" mediumLabel="Medio" class="encriptea" strongLabel="Fuerte" required pPassword />
+                  </div>
+                </div>
+              </div>
+              <div class="single-input-item">
+                <div class="login-reg-form-meta">
+                  <div class="remember-meta">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="subnewsletter">
+                      <label class="custom-control-label text-white" for="subnewsletter">Nose que poner aca xd</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-input-item">
+                <button class="sqr-btn botonregistro">Registrate</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Register Content End -->
+      </div>
+    </div>
+  </div>
+</div>

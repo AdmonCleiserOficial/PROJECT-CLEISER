@@ -1,0 +1,11 @@
+.cajaa{
+    width: 100%;
+    background-color: rgba(20, 3, 65, 0.938);
+    box-shadow: 1px solid black;
+    height: 2rem;
+    
+}
+
+body{
+    background-color: rgb(4, 4, 99);
+}
